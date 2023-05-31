@@ -1,7 +1,4 @@
-import styled from 'style-components'
+import styled from 'styled-components'
 
-const Container = styled.div``
-
-
-
-export {Container}
+export const Container = styled.div``
+export const Wrapper = styled.div``
