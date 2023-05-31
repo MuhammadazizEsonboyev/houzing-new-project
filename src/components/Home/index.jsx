@@ -1,8 +1,16 @@
 import React from 'react'
-import { Container } from './style'
+import { Container, Wrapper } from './style'
+import { Outlet } from 'react-router-dom'
 
-const Home = () => {
-  return <Container>Home</Container>
+export const Home = () => {
+  return (
+    <Container>
+      <Wrapper>
+        <>Home</>
+      </Wrapper>
+      <Outlet />
+    </Container>
+  )
 }
 
 export default Home

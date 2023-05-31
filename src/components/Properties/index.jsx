@@ -1,8 +1,10 @@
 import React from 'react'
-import { Container } from './style'
+import Container from './style'
 
-const Properties = () => {
-  return <Container>Home</Container>
+
+export const Properties = () => {
+  return <Container>Properies</Container>
 }
+
 
 export default Properties
